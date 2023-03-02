@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		41BB971629AEFAC7003EACE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB971529AEFAC7003EACE6 /* AppDelegate.swift */; };
 		41BB971829AEFAC7003EACE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB971729AEFAC7003EACE6 /* SceneDelegate.swift */; };
-		41BB971A29AEFAC7003EACE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB971929AEFAC7003EACE6 /* ViewController.swift */; };
 		41BB971D29AEFAC7003EACE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BB971B29AEFAC7003EACE6 /* Main.storyboard */; };
 		41BB971F29AEFAC8003EACE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BB971E29AEFAC8003EACE6 /* Assets.xcassets */; };
 		41BB972229AEFAC8003EACE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BB972029AEFAC8003EACE6 /* LaunchScreen.storyboard */; };
 		41BB972D29AEFAC8003EACE6 /* LotteryTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB972C29AEFAC8003EACE6 /* LotteryTicketTests.swift */; };
 		41BB973729AEFAC8003EACE6 /* LotteryTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB973629AEFAC8003EACE6 /* LotteryTicketUITests.swift */; };
 		41BB973929AEFAC8003EACE6 /* LotteryTicketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB973829AEFAC8003EACE6 /* LotteryTicketUITestsLaunchTests.swift */; };
+		41BB978629AF0DAF003EACE6 /* LotteryTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB978429AF0DAB003EACE6 /* LotteryTicketViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		41BB971229AEFAC7003EACE6 /* LotteryTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BB971529AEFAC7003EACE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BB971729AEFAC7003EACE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41BB971929AEFAC7003EACE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41BB971C29AEFAC7003EACE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41BB971E29AEFAC8003EACE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41BB972129AEFAC8003EACE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		41BB973229AEFAC8003EACE6 /* LotteryTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BB973629AEFAC8003EACE6 /* LotteryTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryTicketUITests.swift; sourceTree = "<group>"; };
 		41BB973829AEFAC8003EACE6 /* LotteryTicketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryTicketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41BB978429AF0DAB003EACE6 /* LotteryTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryTicketViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				41BB971529AEFAC7003EACE6 /* AppDelegate.swift */,
 				41BB971729AEFAC7003EACE6 /* SceneDelegate.swift */,
-				41BB971929AEFAC7003EACE6 /* ViewController.swift */,
+				41BB978429AF0DAB003EACE6 /* LotteryTicketViewController.swift */,
 				41BB971B29AEFAC7003EACE6 /* Main.storyboard */,
 				41BB971E29AEFAC8003EACE6 /* Assets.xcassets */,
 				41BB972029AEFAC8003EACE6 /* LaunchScreen.storyboard */,
@@ -258,8 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41BB971A29AEFAC7003EACE6 /* ViewController.swift in Sources */,
 				41BB971629AEFAC7003EACE6 /* AppDelegate.swift in Sources */,
+				41BB978629AF0DAF003EACE6 /* LotteryTicketViewController.swift in Sources */,
 				41BB971829AEFAC7003EACE6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
